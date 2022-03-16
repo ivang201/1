@@ -18,7 +18,7 @@ int main()
     int b = 1;
     char x[1000] = {'0'};
 
-    while ((c = getchar()) != '+') {
+    while ((c = getchar()) != EOF) {
         if((c == '\n')){
             x[i] = ' ';
             i = i+1;
